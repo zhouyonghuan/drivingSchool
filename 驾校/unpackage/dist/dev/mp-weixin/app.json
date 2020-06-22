@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/questionBank/index",
+    "pages/mine/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "驾校分销",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/icon/che.png",
+        "selectedIconPath": "static/icon/che.png",
+        "text": "顺风车"
+      },
+      {
+        "pagePath": "pages/questionBank/index",
+        "iconPath": "static/icon/wulumuqishigongandashujuguanlipingtai-ico-.png",
+        "selectedIconPath": "static/icon/wulumuqishigongandashujuguanlipingtai-ico-.png",
+        "text": "题库"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "./static/icon/gerenzhongxin-copy.png",
+        "selectedIconPath": "static/icon/gerenzhongxin-copy.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap93.json"
+}
